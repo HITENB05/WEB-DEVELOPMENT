@@ -8,7 +8,8 @@
     <style>
         table,
         tr,
-        td {
+        td,
+        th {
             border: 1px solid black;
             border-collapse: collapse;
         }
@@ -36,40 +37,73 @@
         <h2>Students Scores</h2>
 
         <table>
+            <thead>
+                <tr>
+                    <th>Students/Subjects </th>
+                    <th>Maths</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Science</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hiten </td>
+                    <td>90</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>Guppi</td>
+                    <td>96</td>
+                    <td>98</td>
+                    <td>96</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Naman</td>
+                    <td>87</td>
+                    <td>98</td>
+                    <td>100</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>Lxay</td>
+                    <td>96</td>
+                    <td>97</td>
+                    <td>98</td>
+                    <td>99</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2>Rowspan and Colspan</h2>
+        <table>
             <tr>
-                <td>Students/Subjects </td>
-                <td>Maths</td>
-                <td>Hindi</td>
-                <td>English</td>
-                <td>Science</td>
+                <td rowspan="2 "></td>
+                <td colspan="2">Average</td>
+               
+                <td rowspan="2">Red Eyes </td>
             </tr>
             <tr>
-                <td>Hiten </td>
-                <td>90</td>
-                <td>98</td>
-                <td>97</td>
-                <td>96</td>
+                
+                <td>Height</td>
+                <td>Weight</td>
+                
             </tr>
             <tr>
-                <td>Guppi</td>
-                <td>96</td>
-                <td>98</td>
-                <td>96</td>
-                <td>100</td>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
             </tr>
             <tr>
-                <td>Naman</td>
-                <td>87</td>
-                <td>98</td>
-                <td>100</td>
-                <td>96</td>
-            </tr>
-            <tr>
-                <td>Lxay</td>
-                <td>96</td>
-                <td>97</td>
-                <td>98</td>
-                <td>99</td>
+                <td>Females</td>
+                <td>1.9</td>
+                <td>0.002</td>
+                <td>43%</td>
             </tr>
         </table>
 
